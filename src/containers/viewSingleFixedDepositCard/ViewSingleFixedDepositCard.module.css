@@ -1,0 +1,64 @@
+.card {
+    flex: 2;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border: 1px solid #d9d9d9;
+  }
+  .text {
+    color: #262626;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffeddd;
+    padding: 16px 20px 16px 16px;
+    margin-bottom: 16px;
+  }
+  
+  .content {
+    padding: 16px 20px 16px 16px;
+    border-bottom: 1px solid #d9d9d9;
+  }
+  
+  .cardFooter {
+    padding: 24px 20px 20px 16px;
+  }
+  
+  .buttonContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .buttonRow {
+    display: flex;
+    justify-content: left;
+    gap: 16px;
+  }
+  
+  .button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    border: 1px solid #d9d9d9 !important;
+    padding: 10px;
+    color: black;
+    font-weight: 600;
+    border-radius: 16px;
+  }
+  
+  .buttonIconStart {
+    color: red;
+  }
+  
+  .buttonIconEnd {
+    margin-left: auto;
+  }
+  

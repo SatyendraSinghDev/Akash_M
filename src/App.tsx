@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Sidebar from "./layout/Sidebar";
+import Header from "./layout/Header";
+import Dashboard from "./containers/Dashboard";
+import Deposit from "./containers/Deposit";
+import styles from "./App.module.css";
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className={styles.app}>
+        <Header />
+        <div className={styles.mainContent}>
+          <Sidebar />
+          <main className={styles.content}>
+            <Routes>
+              <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/deposit" element={<Deposit />} />
+            </Routes>
+          </main>
+        </div>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;

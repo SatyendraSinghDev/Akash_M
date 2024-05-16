@@ -1,0 +1,113 @@
+/* AddNoimneeCard.module.css */
+
+.cardContainer {
+    flex: 1;
+  }
+  
+  .button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 8px;
+    border: 1px solid #d9d9d9;
+    padding: 16px;
+    color: black;
+    font-weight: 600;
+    border-radius: 16px;
+  }
+  
+  /* .buttonIconStartWrapper {
+      background-color: #FFE4CC;
+      border-radius: 50%;
+      padding: 8px;
+    } */
+  
+  .buttonIconStart {
+    display: flex;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+  }
+  
+  .addButton {
+    color: #d75a47;
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    padding-left: 38px;
+  }
+  
+  .addButton:hover {
+    text-decoration: none;
+  }
+  
+  .protectHand {
+    position: absolute;
+    top: 54%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
+  .imageContainer {
+    margin-top: 12px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 1px solid #d9d9d9;
+    background-color: #e8f3f8;
+    display: flex; /* Added */
+  }
+  
+  .image {
+    flex-shrink: 0; /* Added */
+    width: 130px;
+    height: 180px;
+    display: block;
+    border-radius: 16px;
+    margin-left: auto; /* Align image to the right */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 48%;
+    left: 4%;
+    width: 58%;
+    transform: translateY(-50%);
+    text-align: left;
+    border-radius: 5px;
+  }
+  
+  .overlayTitle {
+    color: #d75a47;
+    text-transform: none;
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 16px;
+  }
+  
+  .overlayText {
+    margin-top: 3px;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 14px;
+    color: #262626;
+  }
+  
+  .linkButton {
+    margin-top: 18px;
+    border: 1px solid #d75a47;
+    padding: 5.5px 10px 5.5px 10px;
+    text-transform: none;
+    color: #d75a47;
+    background-color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 24px;
+    width: 136px;
+    height: 32px;
+  }
+  

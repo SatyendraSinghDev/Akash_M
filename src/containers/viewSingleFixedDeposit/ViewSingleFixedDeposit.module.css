@@ -1,0 +1,38 @@
+.mainCard {
+    border-radius: 12px;
+    padding: 16px 2px 16px 2px;
+    color: #ffffff;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .titleContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .titleIcon {
+    color: #d75a47;
+  }
+  
+  .titleText {
+    margin-left: 10px;
+    font-weight: 600;
+    color: #1f1f1f;
+    line-height: 30px;
+  }
+  
+  .contentContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+  }
+  
